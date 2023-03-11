@@ -3,9 +3,18 @@
 body {
     font-family: 'Cantarell', sans-serif;
     font-weight: 300;
+    color: #E3E5E7;
+    background: #0B263D;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Della Respira', serif;
     font-weight: 500;
+    color: E3E5E7;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
 }
