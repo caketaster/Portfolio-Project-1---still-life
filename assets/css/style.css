@@ -15,6 +15,28 @@ h1, h2 {
 }
 
 #logo {
+    /* is float needed after I've implemented flexbox..? */
     float: left;
     font-size: 400%;
+    color:rgb(213, 209, 234)
+}
+
+.flex-container {
+    display: flex;
+}
+
+.box {
+
+}
+
+.one {
+    background-color: aqua;
+}
+
+.two {
+    background-color: rgb(49, 27, 109);
+}
+
+.three {
+    background-color: rgb(218, 108, 130);
 }
