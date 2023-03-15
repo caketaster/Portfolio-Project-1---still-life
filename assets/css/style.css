@@ -41,13 +41,30 @@ h1, h2 {
     
 }
 
+#hero-image-outer {
+    height: inherit;
+    width: inherit;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 100%;
     width: 100%;
     background: url(../images/32696373775_8e3a23a4c0_o.jpg) no-repeat center center;
-    overflow: hidden;
     /* covers whole of the div*/
     background-size: cover;
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transfrom: scale(0.9)
+    }
+    to {
+        transform: scale(1.1)
+    }
 }
 
 /* Might need flex-wrap for mobile screens (think so). Also box 2 should shift to bottom when it wraps on mobile.
