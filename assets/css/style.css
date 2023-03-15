@@ -3,7 +3,7 @@
 body {
     font-family: 'Cantarell', sans-serif;
     font-weight: 300;
-    color: #E3E5E7;
+    color: #d1d5d8;
     background: #181b1e;
 }
 
@@ -11,7 +11,7 @@ body {
     list-style-type: none;
     padding: 0;
     letter-spacing: 2px;
-    margin-right: 20px;
+    margin-right: 30px;
     float: center;
 }
 
@@ -25,16 +25,18 @@ a {
 }
 
 .menu a:hover {
-    text-shadow:  -1px 1px 8px #4280be
+    color:rgb(231, 228, 247);
+    text-shadow:  -1px 1px 12px #4280be;
+    font-weight: bold;
     
 }
 
 h1, h2 {
     font-family: 'Della Respira', serif;
     font-weight: 500;
-    color: #E3E5E7;
+    color: #d3d8dd;
     letter-spacing: 4px;
-    text-shadow: -1px 1px 6px #4280be;
+    text-shadow: -1px 1px 10px #4280be;
 }
 
 #blurb {
