@@ -4,6 +4,9 @@ Flexbox tutorial series:
 
 https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&ab_channel=TheNetNinja
 
+For the Gallery page I again used flexbox for a gallery responsive to different image dimensions with the help of the following website:
+
+https://blog.logrocket.com/responsive-image-gallery-css-flexbox/#creating-responsive-image-gallery-uniform-image-dimensions
 
 
 issues: 

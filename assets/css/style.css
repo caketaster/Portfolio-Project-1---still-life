@@ -167,7 +167,7 @@ nav ul {
 .image-gallery > li {
     height: 200px;
     position: relative;
-    
+    flex: auto;
 }
   
 .image-gallery li img {
@@ -177,3 +177,13 @@ nav ul {
     vertical-align: middle;
     border-radius: 5px;
 }
+
+.image-gallery li img:hover {
+    filter: brightness(1.15);
+    transition: .5s;
+}
+
+.image-gallery::after {
+    content: "";
+    flex-grow: 999;
+  }
