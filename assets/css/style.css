@@ -150,14 +150,27 @@ nav ul {
     height: 50%;
 }
 
+.socials ul {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+#networks i {
+    text-align: center;
+    color: rgba(180, 133, 138, 0.3);
+    font-size: 150%;
+    padding: 10px 10px;
+    margin: 0 20px 20px 0;
+}
+
+#networks i:hover {
+    text-shadow:  -1px 1px 12px #763943;
+}
+
 .three {
     height: 100%;
     flex-basis: 100%;
-}
-
-#socials ul{
-    list-style-type: none;
-    text-align: center;
 }
 
 /* Gallery page */

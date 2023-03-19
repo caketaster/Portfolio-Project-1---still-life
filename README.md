@@ -14,7 +14,7 @@ issues:
 1 menu spacing seems uneven (due to different word lengths?)
 2 cover-text not centered vertically, uneven space comparing top and bottom padding
 3 logo breaks when screen shrinks - using <br> in html and it's ugly and inefficient - need a solution
-4 considering putting contact info on homepage and not having a dedicated contact page. Contact info: Flickr, email, ...?
+4 socials now on each page, decided (almost certainly) to have a Form page to submit quries to buy prints etc. (this will be the Contact page). Basket page to be binned.
 5 still unsure what happens when you click an image..? Fills screen ideally. And what info is there? - add to query, close image, next image, ..? User can contact me about specific image(s)? 
-6 in which case, do I even need a Basket page? Maybe clicking an image takes you to a contact form (options for print, other queries)
-7 still unsure of the purpose of the site haha. Maybe can select images then send email referencing each image clicked
+6 still unsure of the purpose of the site haha. Maybe can select images then send email referencing each image clicked
+7 the gallery images don't always keep their correct dimensions, it depends on the page size. annoying. 
