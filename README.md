@@ -36,5 +36,10 @@ Issues:
 5 still unsure what happens when you click an image..? Fills screen ideally. And what info is there? - add to query, close image, next image, ..? User can contact me about specific image(s)? 
 6 still unsure of the purpose of the site haha. Maybe can select images then send email referencing each image clicked
 7 the gallery images don't always keep their correct dimensions, it depends on the page size. annoying. 
+8 gallery hover-numbers sometimes more or less visible depending on the background.
 
 What I would like to add:
+
+Images to expand upon select (possibly with a menu embedded - image number, image info (camera/film used etc) and a link to add to the form, as explained below).
+
+A way to link clicking on each image to the form, so that users can click on the image(s) they want to ask about and the form add that image number automatically.
