@@ -31,12 +31,27 @@ a {
     
 }
 
-h1, h2 {
+/* logo text styling */
+
+h1 {
     font-family: 'Della Respira', serif;
     font-weight: 500;
     color: #d3d8dd;
     letter-spacing: 4px;
     text-shadow: -1px 1px 10px #4280be;
+}
+
+#logo-box {
+    display: flex;
+    justify-content: space-between;
+    /* this centering doesn't seem to work */
+    margin: 0 auto;
+}
+
+h1 span:last-child {
+    /*this margin-top seems strange. Need to look at it again. And the float seems to have no effect - thought it would float the word to the right */
+    margin-top: 5%;
+    float: right;
 }
 
 #blurb {

@@ -1,6 +1,16 @@
+Outline: 
+
+'still life' is a photography site showcasing my own photography (which helpfully sidesteps copyright issues related to using other people's photography). There are 3 pages of content. Text is kept to a minimum for stylistic reasons so as to keep the focus on the images.
+
+Features:
+
+* Homepage: links all 'glow', as do the social media links, logo also has a fixed glow. The hero image has a slow zoom-in animation.
+* Gallery: flexbox used for gallery images, works with responsive design to look good on all screen sizes. Images brighten (similar feeling to the glow on the links) and have pop-up boxes with image numbers when hovered over. 
+* Contact: 
+
 On the advice of my mentor I decided to use flexbox rather than floats, so made use of YouTube tutorials to give myself the knowledge to use them.
 
-Flexbox tutorial series:
+YouTube flexbox tutorial series:
 
 https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&ab_channel=TheNetNinja
 
@@ -13,8 +23,10 @@ I used W3schools for the basics of making text (or number) boxes appear upon hov
 https://www.w3schools.com/cssref/sel_hover.php
 
 
+Testing:
 
-issues: 
+
+Issues: 
 
 1 top menu spacing seems uneven (due to different word lengths?)
 2 cover-text not centered vertically, uneven space comparing top and bottom padding
@@ -24,3 +36,5 @@ issues:
 5 still unsure what happens when you click an image..? Fills screen ideally. And what info is there? - add to query, close image, next image, ..? User can contact me about specific image(s)? 
 6 still unsure of the purpose of the site haha. Maybe can select images then send email referencing each image clicked
 7 the gallery images don't always keep their correct dimensions, it depends on the page size. annoying. 
+
+What I would like to add:
