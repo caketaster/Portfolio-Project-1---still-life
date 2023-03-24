@@ -305,3 +305,7 @@ img:hover + span {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
+#text-input {
+    padding: 5px;
+}
