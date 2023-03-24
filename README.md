@@ -24,6 +24,10 @@ I used W3schools for the basics of making text (or number) boxes appear upon hov
 
 https://www.w3schools.com/cssref/sel_hover.php
 
+I used this page to create a textarea in the contact form
+
+https://www.w3schools.com/tags/tag_textarea.asp
+
 
 Testing:
 
@@ -47,6 +51,3 @@ Images to expand upon select (possibly with a menu embedded - image number, imag
 A way to link clicking on each image to the form, so that users can click on the image(s) they want to ask about and the form add that image number automatically.
 
 
-Fixed menu bar spacing issue
-Updated readme
-Started work on the basic structure of the contact form
