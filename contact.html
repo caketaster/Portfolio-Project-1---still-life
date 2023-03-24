@@ -18,7 +18,7 @@
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="index.html">home<a></li>
+                <li><a href="index.html">home</a></li>
                 <li><a href="gallery.html">gallery</a></li>
                 <li><a href="contact.html">contact</a></li>
             </ul>
@@ -69,13 +69,19 @@
         <!-- right-hand side, 66% of the page width, full height -->
         <div class="flex-container-two">
             <div class="box three">
-                <div id="hero-image-outer">
-                    <div id="hero-image"></div>
-                    <div id="cover-text">
-                        <h3>still life</h3>
-                        <h4>photography</h4>
-                        <h4>art prints</h4>
-                    </div>
+                <div id="contact-form">
+                    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                        <h2>make contact</h2>
+                        <label for="name">your name</label>
+                        <input id="name" name="name" type="text" required class="text-input">
+                        
+                        <label for="email">email address</label>
+                        <input type="email" id="email" name="email_address" required class="text-input">
+                        
+                        
+                        <input class="join-button" type="submit" value="submit">
+                    </form>
+                    
                 </div>
             </div>
         </div>

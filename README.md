@@ -4,9 +4,11 @@ Outline:
 
 Features:
 
-* Homepage: links all 'glow', as do the social media links, logo also has a fixed glow. The hero image has a slow zoom-in animation.
-* Gallery: flexbox used for gallery images, works with responsive design to look good on all screen sizes. Images brighten (similar feeling to the glow on the links) and have pop-up boxes with image numbers when hovered over. 
+* Homepage: links all 'glow', as do the social media links, the site logo also has a fixed glow. The hero image has a slow zoom-in animation.
+* Gallery: flexbox used for gallery images, works with responsive design to look good on all screen sizes. Images brighten (similar feeling to the glow on the links) and have pop-up semi-translucent items with image numbers when hovered over. 
 * Contact: 
+
+I used the Love-Running walkthrough project as a basic skeleton for the page, including the nav menu and hero-image zoom.
 
 On the advice of my mentor I decided to use flexbox rather than floats, so made use of YouTube tutorials to give myself the knowledge to use them.
 
@@ -43,3 +45,8 @@ What I would like to add:
 Images to expand upon select (possibly with a menu embedded - image number, image info (camera/film used etc) and a link to add to the form, as explained below).
 
 A way to link clicking on each image to the form, so that users can click on the image(s) they want to ask about and the form add that image number automatically.
+
+
+Fixed menu bar spacing issue
+Updated readme
+Started work on the basic structure of the contact form
