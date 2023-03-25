@@ -90,6 +90,9 @@ h1 span:last-child {
     right: 50px;
     position: absolute;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #logo-one {

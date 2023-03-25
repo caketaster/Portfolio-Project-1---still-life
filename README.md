@@ -43,6 +43,8 @@ Issues:
 6 still unsure of the purpose of the site haha. Maybe can select images then send email referencing each image clicked
 7 the gallery images don't always keep their correct dimensions, it depends on the page size. annoying. 
 8 gallery hover-numbers sometimes more or less visible depending on the background.
+9 can I style the placeholder text on the contact form?
+10 the contact form is high in the div, not centred
 
 What I would like to add:
 
