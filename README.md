@@ -52,4 +52,22 @@ Images to expand upon select (possibly with a menu embedded - image number, imag
 
 A way to link clicking on each image to the form, so that users can click on the image(s) they want to ask about and the form add that image number automatically.
 
+# Deployment
 
+## Production
+This website was deployed to GitHub Pages. 
+The following steps were taken to deploy: 
+1. Click the Settings cog on GitHub
+ ![Screenshot 2023-03-25 at 10 53 42](https://user-images.githubusercontent.com/97278488/227685366-aa2acd1f-76de-4cbf-8d1f-ae794b745e2c.jpg)
+
+2. In the left-hand nav, click on the Pages tab 
+ ![Screenshot 2023-03-25 at 10 57 03](https://user-images.githubusercontent.com/97278488/227686313-9f440a2f-a4b8-4d86-ba57-0f8143da7a07.jpg)
+ 
+3. In the Branches section, select Main
+  ![Screenshot 2023-03-25 at 11 01 19](https://user-images.githubusercontent.com/97278488/227687270-2369bfaa-76f0-4fc7-ac36-bc75ab97ff1b.jpg)
+
+4. Click Save
+![Screenshot 2023-03-25 at 11 01 48](https://user-images.githubusercontent.com/97278488/227687445-0de90a4f-d984-4845-986c-ddaaf7402abf.jpg)
+
+5. Site is now deployed
+ ![Screenshot 2023-03-25 at 11 05 34](https://user-images.githubusercontent.com/97278488/227688005-077f6d54-4af4-4d55-aadc-3075d38cf3c2.jpg
