@@ -200,6 +200,7 @@ ul#networks {
     flex-basis: 100%;
 }
 
+
 /* Gallery page */
 
 .image-gallery {
@@ -237,7 +238,7 @@ ul#networks {
     display: none;
     padding: 0px;
     background-color: rgb(182, 111, 119, .6);
-    opacity: .6;
+    opacity: .7;
     width: 50px;
     height: 50px;
     border-radius: 15px;
@@ -256,13 +257,15 @@ img:hover + span {
 
 /* Form */
 
-/* .contact-form {
-    My naming - do I need this? 
-} */
+#contact-form {
+    height: 100vh;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
 
 .form-section {
-    /* clear: left;
-    background: ; */
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -274,8 +277,6 @@ img:hover + span {
     background-color: rgb(182, 111, 119, .6); 
     max-width: 400px;
     border-radius: 15px;
-    /* position: absolute;
-    left: 10%;*/
     padding:30px; 
 }
 
