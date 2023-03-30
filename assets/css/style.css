@@ -132,10 +132,10 @@ h1 span:last-child {
     to {
         transform: scale(1.1)
     }
+
 }
 
-/* Might need flex-wrap for mobile screens (think so). Also box 2 should shift to bottom when it wraps on mobile.
-Do I need flex-shrink? Not sure yet */
+
 /* shorthand - flex: 1 0 100px; = grow, shrink, basis */
 
 .flex-master {
@@ -319,4 +319,33 @@ img:hover + span {
 #query {
     font-family: inherit;
     width: 100%;
+}
+
+/* Media queries - tablet, mobile */
+
+@media screen and (max-width: 768px) {
+    #logo-one, #logo-two {
+        font-size: 250%;
+    }
+
+    .socials ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-gallery {
+        padding-inline-start: 0px;
+    }
+  
+}
+
+@media screen and (max-width: 500px) {
+
+    #logo-one, #logo-two {
+        font-size: 180%;
+    }
+
+    #blurb {
+        font-size: 80%;
+    }
 }
