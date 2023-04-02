@@ -237,7 +237,7 @@ ul#networks {
 .overlay {
     display: none;
     padding: 0px;
-    background-color: rgb(182, 111, 119, .6);
+    background-color: rgb(182, 111, 119, .8);
     opacity: .7;
     width: 50px;
     height: 50px;
@@ -295,8 +295,23 @@ img:hover + span {
     border-radius: 2px;
 }
 
+::placeholder { /* Firefox */
+    color: #d1d5d8;
+    opacity: .6; 
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #d1d5d8;
+   opacity: .6; 
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #d1d5d8;
+   opacity: .6; 
+  }
+
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #fcfdfd;
 }
 
 .send-button {
