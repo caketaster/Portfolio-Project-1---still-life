@@ -336,6 +336,10 @@ img:hover + span {
     .image-gallery {
         padding-inline-start: 0px;
     }
+
+    /* .image-gallery li img {
+        object-fit: cover;
+    } */
   
 }
 
@@ -347,5 +351,9 @@ img:hover + span {
 
     #blurb {
         font-size: 80%;
+    }
+
+    #hero-image {
+        background: url(../images/7.jpg) no-repeat center center;
     }
 }
