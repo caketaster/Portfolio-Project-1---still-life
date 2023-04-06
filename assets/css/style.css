@@ -7,6 +7,7 @@ body {
     background: #181b1e;
 }
 
+/* Navigation links */
 .menu ul {
     list-style-type: none;
     padding: 0;
@@ -22,7 +23,7 @@ body {
 
 .menu a.active {
     color: #fff;
-    text-shadow:  2px 3px 10px #6a8bad;
+    text-shadow: 2px 3px 10px #6a8bad;
 }
 
 a {
@@ -30,8 +31,8 @@ a {
 }
 
 .menu a:hover {
-    color:rgb(231, 228, 247);
-    text-shadow:  -1px 1px 12px #4280be;
+    color: rgb(231, 228, 247);
+    text-shadow: -1px 1px 12px #4280be;
     font-weight: bold;
     cursor: pointer;
 }
@@ -78,7 +79,8 @@ h1 span:last-child {
     position: relative;
 }
 
-#cover-text, #cover-text h3 h4 {
+#cover-text,
+#cover-text h3 h4 {
     font-family: 'Della Respira', serif;
     color: #E3E5E7;
     letter-spacing: 6px;
@@ -87,7 +89,7 @@ h1 span:last-child {
 #cover-text {
     width: 200px;
     height: 200px;
-    
+
     background-color: rgb(182, 111, 119, .6);
     border-radius: 15px;
     bottom: 30px;
@@ -101,14 +103,14 @@ h1 span:last-child {
 
 #logo-one {
     font-size: 400%;
-    color:rgb(213, 209, 234);
+    color: rgb(213, 209, 234);
     float: left;
     padding-left: 15%;
 }
 
 #logo-two {
     font-size: 400%;
-    color:rgb(213, 209, 234);
+    color: rgb(213, 209, 234);
     float: right;
     padding-right: 15%;
 }
@@ -130,10 +132,13 @@ h1 span:last-child {
     animation-fill-mode: forwards;
 }
 
+/* Hero image zoom */
+
 @keyframes hero-zoom {
     from {
         transfrom: scale(0.9)
     }
+
     to {
         transform: scale(1.1)
     }
@@ -170,7 +175,7 @@ nav ul {
 
 .box {
     flex: 1;
-    
+
 }
 
 .one .two {
@@ -178,13 +183,19 @@ nav ul {
     height: 50%;
 }
 
+/* Socials */
+
 .socials ul {
     list-style-type: none;
     text-align: center;
 
 }
 
-#networks i {
+.socials.mobile ul {
+    display: none;
+}
+
+.networks i {
     text-align: center;
     color: rgba(180, 133, 138, 0.3);
     font-size: 150%;
@@ -198,7 +209,7 @@ ul#networks {
 }
 
 #networks i:hover {
-    text-shadow:  -1px 1px 12px #763943;
+    text-shadow: -1px 1px 12px #763943;
 }
 
 .three {
@@ -215,13 +226,13 @@ ul#networks {
     flex-wrap: wrap;
     gap: 20px;
 }
-  
-.image-gallery > li {
+
+.image-gallery>li {
     height: 200px;
     position: relative;
     flex: auto;
 }
-  
+
 .image-gallery li img {
     object-fit: contain;
     width: 100%;
@@ -238,7 +249,7 @@ ul#networks {
 .image-gallery::after {
     content: "";
     flex-grow: 999;
-  }
+}
 
 .overlay {
     display: none;
@@ -255,13 +266,13 @@ ul#networks {
     vertical-align: middle;
 }
 
-img:hover + span {
+img:hover+span {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-/* Form */
+/* Contact form */
 
 #contact-form {
     height: 100vh;
@@ -280,13 +291,13 @@ img:hover + span {
 .signup-form {
     margin: 0 auto;
     color: #fff;
-    background-color: rgb(182, 111, 119, .6); 
+    background-color: rgb(182, 111, 119, .6);
     max-width: 400px;
     border-radius: 15px;
-    padding:30px; 
+    padding: 30px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #d1d5d8;
     margin-bottom: 20px;
 }
@@ -302,20 +313,23 @@ img:hover + span {
     padding: 2px 6px;
 }
 
-::placeholder { /* Firefox */
+::placeholder {
+    /* Firefox */
     color: #d1d5d8;
-    opacity: .6; 
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #d1d5d8;
-   opacity: .6; 
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #d1d5d8;
-   opacity: .6; 
-  }
+    opacity: .6;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #d1d5d8;
+    opacity: .6;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #d1d5d8;
+    opacity: .6;
+}
 
 .text-input:hover {
     border-color: #fcfdfd;
@@ -334,7 +348,7 @@ img:hover + span {
 }
 
 .send-button:hover {
-    text-shadow:  -1px 1px 20px #eec8ce;
+    text-shadow: -1px 1px 20px #eec8ce;
     cursor: pointer;
 }
 
@@ -348,14 +362,16 @@ img:hover + span {
 /* Media queries - tablet, mobile */
 
 @media screen and (max-width: 768px) {
-    #logo-one, #logo-two {
+
+    #logo-one,
+    #logo-two {
         font-size: 250%;
     }
 
-    .socials ul {
+    /*.socials ul {
         display: flex;
-        flex-direction: column;
-    }
+        flex-direction: column; 
+    } */
 
     .image-gallery {
         padding-inline-start: 0px;
@@ -370,12 +386,13 @@ img:hover + span {
         width: 100%;
         margin-top: -10px;
     }
-    
+
 }
 
 @media screen and (max-width: 500px) {
 
-    #logo-one, #logo-two {
+    #logo-one,
+    #logo-two {
         font-size: 180%;
     }
 
@@ -385,6 +402,38 @@ img:hover + span {
 
     #hero-image {
         background: url(../images/7.jpg) no-repeat center center;
+    }
+
+    /* make the main container 100% vs two columns for phones */
+
+    #mobile-socials {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex-container-one,
+    .flex-container-two {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .box.three {
+        height: auto;
+        justify-content: center;
+        margin: 0 15px;
+    }
+
+    .socials.desktop ul {
+        display: none;
+    }
+
+    .socials.mobile ul {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 60px;
+        justify-content: space-around;
     }
 
 }
