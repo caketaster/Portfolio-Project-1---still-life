@@ -367,11 +367,8 @@ img:hover+span {
     .socials ul {
         display: flex;
         flex-direction: column; 
-    } 
-
-    .image-gallery {
         padding-inline-start: 0px;
-    }
+    } 
 
     header {
         position: fixed;
@@ -381,6 +378,14 @@ img:hover+span {
         z-index: 200;
         width: 100%;
         margin-top: -10px;
+    }
+
+    .networks {
+        padding-inline-start: 0px;
+    }
+
+    #contact-form {
+        height: 80vh;
     }
 
 }
@@ -408,6 +413,7 @@ img:hover+span {
     } 
 
     .desktop ul {
+        padding-left: 0px;
         display: flex;
         flex-direction: row;
     } 
@@ -426,11 +432,17 @@ img:hover+span {
     }
 
     .socials.mobile ul {
+        visibility: hidden;
         display: flex;
         flex-direction: row;
         position: relative;
         top: 60px;
         justify-content: space-around;
+        padding-left: 0px;
+    }
+
+    #contact-form {
+        height: 50vh;
     }
 
 }
