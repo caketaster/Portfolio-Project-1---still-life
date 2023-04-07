@@ -67,6 +67,12 @@ https://github.com/caketaster
  To develop my own HTML and CSS skills whilst creating a viable website. 
 
 # User Stories
+As a site user I want to:
+- explore the gallery and see what photos are available
+- get an idea of the style of the photographer if thinking of a collaboration or commission
+- find social media links to explore more of the admin's work in photography
+
+## Site User Stories
 I sent the site to be tested by a few photography friends. Their feedback is below, and what I did (if anything) with the feedback:
 
 >  I think the fonts are ok, there is some issues with the kerning between f and e of ‘life’, not sure if you can do anything about it.  Is there a reason why you chose all lower case?  In the contact form, where you fill the fields in the text is difficult to read (grey on maroon).  Top menu is working fine, but I can’t do anything with the left hand ‘film photography’ ‘art prints’ and contact….’, is this intentional?
@@ -83,9 +89,6 @@ The 'contact' text is clickable but the user missed this. I intended this sectio
 
 Again this feedback points to a future direction of adding more content and links onto the homepage. I intentionally left it as simple as possible, but if user feedback is telling me they expect more information then it should be taken into consideration for future updates. 
 
-
-
-## Site User Stories
 ## Website Owner Stories
 ## Developer Stories
 ** to be added. Or do I need them? What do I write here? **
@@ -163,6 +166,8 @@ The numbers that appear on hover in the Gallery sometimes do not sit nicely on t
 From user feedback, I realised that a possible future improvement would be a contact page with subsections depending on the nature of the query - one more sales-focused (with print sizes, paper quality, pricing etc.) and another closer to what's presented now - a form with a simple text area for general contact. 
 
 It could also be an improvement to add more information on gear used and so on, as the target audience (which would include other film photography enthusists) would find this useful. 
+
+There is currently no 404 page. One could be created for completeness.
 
 # Testing
 ** to be added **

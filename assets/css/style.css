@@ -405,11 +405,11 @@ img:hover+span {
     #mobile-socials {
         flex-direction: column;
         width: 100%;
-    }
+    } 
 
-    .socials ul {
+    .desktop ul {
         display: flex;
-        flex-direction: row; 
+        flex-direction: row;
     } 
 
     .flex-container-one,
@@ -423,10 +423,6 @@ img:hover+span {
         height: auto;
         justify-content: center;
         margin: 0 15px;
-    }
-
-    .socials.desktop ul {
-        display: none;
     }
 
     .socials.mobile ul {
