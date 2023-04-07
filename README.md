@@ -124,7 +124,14 @@ Having 3 pages gives some separation to the site - the homepage has little funct
 
 # Wireframes
 Basic wireframes were created for desktop and mobile in Balsamiq, although the final design and function did change. 
-** can I link to the balsamiq project, or should I add screenshots? **
+![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)
+![Gallery page wireframes mockup](assets/images/readme/wireframes2.jpg)
+![Gallery page image clicked mockup](assets/images/readme/wireframes3.jpg)
+
+I also made wireframes for the same pages on mobile:
+![Homepage wireframe mockup, mobile screen](assets/images/readme/wireframes4.jpg)
+![Gallery page wireframes mockup, mobile screen](assets/images/readme/wireframes5.jpg)
+![Gallery page image clicked mockup, mobile screen](assets/images/readme/wireframes6.jpg)
 
 # Features
 
@@ -132,22 +139,26 @@ Basic wireframes were created for desktop and mobile in Balsamiq, although the f
 
 ### Homepage
 Links all 'glow', as do the social media links, the site logo also has a fixed glow. The hero image has a slow zoom-in animation.
+I added 2 breakpoints: width < 768px and < 500px to cover tablet and mobile screens.
+At 768px and lower the social icons switch to a vertical format to better fit a narrow screen. The logo and text also shrink to better fit a small screen. The menu bar becomes sticky. 
 On mobile screens (< 500px) the hero image changes to an image that looks better when zoomed on a smaller screen. 
-The logo and text also shrink to better fit a small screen.
-The social icons also switch to a vertical format to better fit a long, narrow screen. 
+
 
 ![Image of the homescreen on a mobile phone sized format](assets/images/readme/mobile-home.jpg)
 
 ### Gallery 
 Flexbox used for gallery images, works with responsive design to look good on all screen sizes. Images brighten (similar feeling to the glow on the links) and have pop-up semi-translucent spans with image numbers when hovered over. Pop-ups on hover also help prevent users screenshotting the images - important if you're trying to sell images. 
+At < 500px the page changes format so that the page is less crowded - it becomes a longer vertical layout rather than having items side by side. 
 
 ### Contact page
-The Send [Submit] button glows, roughly in line with other clickables on the site. The form is as basic and simple as possible by design; I want users to be unpressured by the site and write anything they like, if they choose to do so.
+The Send [Submit] button glows, roughly in line with other clickables on the site. The form is as basic and simple as possible by design; I want users to be unpressured by the site and write anything they like, if they choose to do so. At 500px and below the page becomes a vertical layout, as with the Gallery page. 
 
 ## Future Features
 I would love the images to expand to full-screen on being clicked (or possibly when hovered over), and for hover-links to appear to, for example, add them to a section of the contact form. A user could thus click on each image they were interested in and the image numbers would populate the contact form. This would save the user having to remember specific image numbers before filling the contact form in. I believe this would involve javascript abilities that I do not yet possess. 
 
 I originally envisioned this as mainly a sales site, so did have a Basket page, but decided against this for a few reasons. Firstly I didn't want the site to feel like a shopping site - it's a bit crass, and the mood of the site does not fit this functionality. Secondly it seemed easier in terms of coding to go with a simple contact form from which to open a dialogue about sales, if that's what the user is looking for. However, future versions could have a dedicated Sales/Basket page - probably a smarter move if genuinely aiming for a for-profit business. 
+
+The numbers that appear on hover in the Gallery sometimes do not sit nicely on the images, and this is something that could be improved. If all images had the same aspect ratio this could be solved relatively easily, in future I would consider separate galleries depending on aspect ratio, which would make this issue simpler to work on, and give users choice based on image layout (for printing etc).
 
 From user feedback, I realised that a possible future improvement would be a contact page with subsections depending on the nature of the query - one more sales-focused (with print sizes, paper quality, pricing etc.) and another closer to what's presented now - a form with a simple text area for general contact. 
 
