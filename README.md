@@ -89,11 +89,6 @@ The 'contact' text is clickable but the user missed this. I intended this sectio
 
 Again this feedback points to a future direction of adding more content and links onto the homepage. I intentionally left it as simple as possible, but if user feedback is telling me they expect more information then it should be taken into consideration for future updates. 
 
-## Website Owner Stories
-## Developer Stories
-** to be added. Or do I need them? What do I write here? **
-
-
 # Design Choices
 
 ## Colours
@@ -154,7 +149,7 @@ Flexbox used for gallery images, works with responsive design to look good on al
 At < 500px the page changes format so that the page is less crowded - it becomes a longer vertical layout rather than having items side by side. 
 
 ### Contact page
-The Send [Submit] button glows, roughly in line with other clickables on the site. The form is as basic and simple as possible by design; I want users to be unpressured by the site and write anything they like, if they choose to do so. At 500px and below the page becomes a vertical layout, as with the Gallery page. 
+The Send [Submit] button glows, roughly in line with other clickables on the site. The form is as basic and simple as possible by design; I want users to be unpressured by the site and write anything they like, if they choose to do so. The form cannot be submitted without a name or email, or with a blank query. At 500px and below the page becomes a vertical layout, as with the Gallery page. 
 
 ## Future Features
 I would love the images to expand to full-screen on being clicked (or possibly when hovered over), and for hover-links to appear to, for example, add them to a section of the contact form. A user could thus click on each image they were interested in and the image numbers would populate the contact form. This would save the user having to remember specific image numbers before filling the contact form in. I believe this would involve javascript abilities that I do not yet possess. 

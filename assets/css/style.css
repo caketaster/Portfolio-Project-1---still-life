@@ -401,6 +401,10 @@ img:hover+span {
         font-size: 80%;
     }
 
+    div#hero-image {
+        height: 500px;
+    }
+
     #hero-image {
         background: url(../images/7.jpg) no-repeat center center;
     } 
@@ -439,6 +443,14 @@ img:hover+span {
         top: 60px;
         justify-content: space-around;
         padding-left: 0px;
+    }
+
+    .image-gallery>li {
+        height: auto;
+    }
+
+    ul {
+        padding-inline-start: 0px;
     }
 
     #contact-form {
