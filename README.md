@@ -29,8 +29,6 @@ https://github.com/caketaster
 - [Project Goals](#project-goals)
 - [User Stories](#user-stories)
   * [Site User Stories](#site-user-stories)
-  * [Website Owner Stories](#website-owner-stories)
-  * [Developer Stories](#developer-stories)
 - [Design Choices](#design-choices)
   * [Colours](#colours)
   * [Typography](#typography)
@@ -138,11 +136,13 @@ I also made wireframes for the same pages on mobile:
 ### Homepage
 Links all 'glow', as do the social media links, the site logo also has a fixed glow. The hero image has a slow zoom-in animation.
 I added 2 breakpoints: width < 768px and < 500px to cover tablet and mobile screens.
-At 768px and lower the social icons switch to a vertical format to better fit a narrow screen. The logo and text also shrink to better fit a small screen. The menu bar becomes sticky. 
-On mobile screens (< 500px) the hero image changes to an image that looks better when zoomed on a smaller screen. 
+At 768px and lower the social icons switch to a vertical format to better fit a narrow screen. The logo and text also shrink to better fit a small screen. The menu bar becomes sticky and better delineated from the body of the page.
 
+![Image of the homescreen on a tablet sized format (approx. 755px wide)](assets/images/readme/home-tablet.jpg)
 
-![Image of the homescreen on a mobile phone sized format](assets/images/readme/mobile-home.jpg)
+On mobile screens (< 500px) the hero image changes to an image that looks better when zoomed on a smaller screen. The page becomes one column as opposed to the previous 2, social icons move to the footer and are again in a row format.
+
+![Image of the homescreen on a mobile phone sized format (approx. 500px wide)](assets/images/readme/home-mobile.jpg)
 
 ### Gallery 
 Flexbox used for gallery images, works with responsive design to look good on all screen sizes. Images brighten (similar feeling to the glow on the links) and have pop-up semi-translucent spans with image numbers when hovered over. Pop-ups on hover also help prevent users screenshotting the images - important if you're trying to sell images. 

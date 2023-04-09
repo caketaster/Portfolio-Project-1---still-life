@@ -311,20 +311,20 @@ img:hover+span {
 
 ::placeholder {
     /* Firefox */
-    color: #d1d5d8;
-    opacity: .6;
+    color: #6c7175;
+    opacity: .7;
 }
 
 :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: #d1d5d8;
-    opacity: .6;
+    color: #6c7175;
+    opacity: .7;
 }
 
 ::-ms-input-placeholder {
     /* Microsoft Edge */
-    color: #d1d5d8;
-    opacity: .6;
+    color: #6c7175;
+    opacity: .7;
 }
 
 .text-input:hover {
@@ -355,7 +355,7 @@ img:hover+span {
 
 }
 
-/* Media queries - tablet, mobile */
+/* Media queries - tablet */
 
 @media screen and (max-width: 768px) {
 
@@ -364,10 +364,12 @@ img:hover+span {
         font-size: 250%;
     }
 
-    .socials ul {
-        display: flex;
-        flex-direction: column; 
-        padding-inline-start: 0px;
+    .desktop ul {
+        flex-direction: column;
+    }
+
+    .socials.mobile ul {
+        visibility: hidden;
     } 
 
     header {
@@ -416,12 +418,6 @@ img:hover+span {
         width: 100%;
     } 
 
-    .desktop ul {
-        padding-left: 0px;
-        display: flex;
-        flex-direction: row;
-    } 
-
     .flex-container-one,
     .flex-container-two {
         width: 100%;
@@ -435,8 +431,13 @@ img:hover+span {
         margin: 0 15px;
     }
 
-    .socials.mobile ul {
+    .desktop {
+        height: 0px;
         visibility: hidden;
+    }
+
+    .socials.mobile ul {
+        visibility: visible;
         display: flex;
         flex-direction: row;
         position: relative;
