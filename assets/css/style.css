@@ -52,12 +52,6 @@ h1 {
     margin: 0 auto;
 }
 
-h1 span:last-child {
-    /*this margin-top seems strange. Need to look at it again. And the float seems to have no effect - thought it would float the word to the right */
-    margin-top: 5%;
-    float: right;
-}
-
 #blurb {
     padding: 60px 40px 40px 40px;
     text-align: center;
@@ -197,14 +191,15 @@ nav ul {
     font-size: 150%;
     padding: 10px 10px;
     margin: 0 20px 20px 0;
+    padding-inline-start: 0px;
 }
 
-ul#networks {
+ul.networks {
     margin: 0;
     padding-inline-start: 0px;
 }
 
-#networks i:hover {
+.networks i:hover {
     text-shadow: -1px 1px 12px #763943;
 }
 
@@ -386,6 +381,10 @@ img:hover+span {
         padding-inline-start: 0px;
     }
 
+    .image-gallery {
+        padding-inline-start: 0px;
+    }
+
     #contact-form {
         height: 80vh;
     }
@@ -458,4 +457,55 @@ img:hover+span {
         height: 50vh;
     }
 
+}
+
+.thank-menu {
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+    margin-top: -10px;
+}
+
+#thank-you-outer {
+    height: auto;
+    justify-content: center;
+    margin: 0 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+#thank-you-image {
+    height: 100vh;
+    
+    background: url(../images/25.jpg) no-repeat center center;
+    background-size: cover;
+    /* animation-name: thank-you-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards; */
+}
+/* Thank you image zoom 
+@keyframes thank-you-zoom {
+    from {
+        transform: scale(1.3)
+    }
+
+    to {
+        transform: scale(1.5)
+    }
+
+} */
+
+#thanks-cover-text h1 {
+    font-family: 'Della Respira', serif;
+    color: #E3E5E7;
+    letter-spacing: 6px;
+}
+
+#thanks-cover-text {
+    top: 50%;
+    width: 40%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
 }
