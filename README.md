@@ -42,6 +42,7 @@ https://github.com/caketaster
     + [Gallery](#gallery)
     + [Contact page](#contact-page)
     + [Thank you page](#thank-you-page)
+    + [404 page](#404-page)
   * [Future Features](#future-features)
 - [Testing](#testing)
 - [Validation Testing](#validation-testing)
@@ -167,18 +168,21 @@ The form redirects to a static Thank you page with a clickable message (reading 
 
 ![thank you link glow](assets/images/readme/thanks-glow.jpg)
 
+## 404 page
+404 page created with a link back to the home page, as per the Thank you page.
+
+![404 link glow](assets/images/readme/404-glow.jpg)
+
 ## Future Features
 I would love the images to expand to full-screen on being clicked (or possibly when hovered over), and for hover-links to appear to, for example, add them to a section of the contact form. A user could thus click on each image they were interested in and the image numbers would populate the contact form. This would save the user having to remember specific image numbers before filling the contact form in. I believe this would involve javascript abilities that I do not yet possess. 
 
 I originally envisioned this as mainly a sales site, so did have a Basket page, but decided against this in the final version for a few reasons. Firstly I didn't want the site to feel like a shopping site - it's a bit crass, and the mood of the site does not fit this functionality. Secondly it seemed easier in terms of coding to go with a simple contact form from which to open a dialogue about sales, if that's what the user is looking for. However, future versions could have a dedicated Sales/Basket page - probably a smarter move if genuinely aiming for a for-profit business. 
 
-The numbers that appear on hover in the Gallery sometimes do not sit nicely on the images (in the tablet screen size), and this is something that could be improved. If all images had the same aspect ratio this could be solved relatively easily, in future I would consider separate galleries depending on aspect ratio, which would make this issue simpler to work on, and give users choice based on image layout (for printing etc).
+The numbers that appear on hover in the Gallery sometimes do not sit nicely on the images (in the tablet screen size in particular), and this is something that could be improved. If all images had the same aspect ratio this could be solved relatively easily, in future I would consider separate galleries depending on aspect ratio, which would make this issue simpler to work on, and give users choice based on image layout (for printing etc). Having a gallery-style where the column number would shrink with the screen size could also mitigate this issue - something I could implement in future.
 
 From user feedback, I realised that a possible future improvement would be a contact page with subsections depending on the nature of the query - one more sales-focused (with print sizes, paper quality, pricing etc.) and another closer to what's presented now - a form with a simple text area for general contact. 
 
 It could also be an improvement to add more information on gear used and so on, as the target audience (which would include other film photography enthusists) would find this useful. 
-
-There is currently no 404 page. One could be created for completeness.
 
 # Testing
 ** to be added **
