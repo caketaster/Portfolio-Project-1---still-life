@@ -6,6 +6,8 @@
 
 A contact form is provided for users to ask questions or comment, with a view to providing prints of photographs, or organising commissions or collaborations. 
 
+![responsiveness on all screen sizes](assets/images/readme/responsive.jpg)
+
 # Live site
 https://caketaster.github.io/Portfolio-Project-1---still-life/
 
@@ -48,8 +50,8 @@ https://github.com/caketaster
 - [Validation Testing](#validation-testing)
   * [CSS Validation](#css-validation)
   * [HTML Validation](#html-validation)
-- [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
-- [Testing:](#testing-)
+  * [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
+  * [Lighthouse testing:](#lighthouse-testing-)
 - [Deployment](#deployment)
   * [Production](#production)
 - [Credits](#credits)
@@ -163,12 +165,12 @@ The Send [Submit] button glows, roughly in line with other clickables on the sit
 
 ![send button glow](assets/images/readme/send-glow.jpg)
 
-## Thank you page
+### Thank you page
 The form redirects to a static Thank you page with a clickable message (reading 'thank you') that returns you to the home page. This link shares the same style and glow as the logo text.
 
 ![thank you link glow](assets/images/readme/thanks-glow.jpg)
 
-## 404 page
+### 404 page
 404 page created with a link back to the home page, as per the Thank you page.
 
 ![404 link glow](assets/images/readme/404-glow.jpg)
@@ -184,7 +186,12 @@ From user feedback, I realised that a possible future improvement would be a con
 
 It could also be an improvement to add more information on gear used and so on, as the target audience (which would include other film photography enthusists) would find this useful. 
 
+All pages are responsive down to 320px wide (which very few, if any, modern phones are), as long as the screen has a length of 800px, and look good on any larger screen sizes (although the contact page starts to look slightly odd above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on monitors of this kind.
+
+The gallery can be slow to load, due to large image sizes. This is a trade-off - I want to show images in high quality, but the larger the image (and the more images I have), the slower they will load. I chose to stick with large images in my assets folder but use jpg, as a relativly compact file size. In future I could tweak this to optimise speed whilst keeping quality at a relatively high level, or split the gallery onto different pages depending on subject, format and so on to have shorter loading times per page.
+
 # Testing
+Every page looks good on screens as narrow as 320px and as short as 700px.
 The site passes all tests from the following template (adapted for use on my own site)
 ![testing validation](assets/images/readme/testing.jpg)
 
@@ -196,15 +203,43 @@ https://jigsaw.w3.org/css-validator/
 
 ## HTML Validation
 No errors were returned when passing through the official HTML validator
-![HTML validation](assets/images/readme/html-valid.jpg)
+![HTML validation](assets/images/readme/html-index.jpg)
+![HTML validation](assets/images/readme/html-gallery.jpg)
+![HTML validation](assets/images/readme/html-contact.jpg)
+![HTML validation](assets/images/readme/html-thankyou.jpg)
+![HTML validation](assets/images/readme/html-404.jpg)
 https://validator.w3.org/
 
-# Compatibility and Responsive Testing
+## Compatibility and Responsive Testing
 ** Test on min. 3 screen sizes (I think) - need to know exactly which device sizes I need to test on **
 
-# Testing
-All links, both internal and external, are working correctly. External links all open in separate tabs while internal links open on the same page. 
-** when form is sent you get a Bad Gateway 502...**
+## Lighthouse testing
+All testing was performed on an Incognito page in Chrome. Although Performance can vary, the major issue was the Gallery performance on both mobile and desktop, due to the amount of large, fairly high quality images
+
+Homepage (desktop)
+![Homepage desktop lighthouse validation](assets/images/readme/lh-home-desk.jpg)
+Homepage (mobile)
+![Homepage mobile lighthouse validation](assets/images/readme/lh-home-mob.jpg)
+
+Gallery (desktop)
+![Gallery desktop lighthouse validation](assets/images/readme/lh-gallery-desk.jpg)
+Gallery (mobile)
+![Gallery mobile lighthouse validation](assets/images/readme/lh-gallery-mob.jpg)
+
+Contact page (desktop)
+![Contact desktop lighthouse validation](assets/images/readme/lh-contact-desk.jpg)
+Contact page (mobile)
+![Contact mobile lighthouse validation](assets/images/readme/lh-contact-mob.jpg)
+
+Thank you page (desktop)
+![Thank you desktop lighthouse validation](assets/images/readme/lh-thank-desk.jpg)
+Thank you page (mobile)
+![Thank you mobile lighthouse validation](assets/images/readme/lh-thank-mob.jpg)
+
+404 page (desktop)
+![404 desktop lighthouse validation](assets/images/readme/lh-404-desk.jpg)
+404 page (mobile)
+![404 mobile lighthouse validation](assets/images/readme/lh-404-mob.jpg)
 
 # Deployment
 
@@ -271,8 +306,9 @@ All photos were taken from my own Flickr page (https://www.flickr.com/photos/148
 
 
 NOTES:
+To commit - media queries shorter screens
+To do - insert lighthouse, 
 
 
-To do - Testing page, validation, compatability and responsiveness (what page?), insert lighthouse
-QUOTE: "Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.")
+QUOTE: "Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed."
 

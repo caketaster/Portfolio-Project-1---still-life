@@ -373,6 +373,70 @@ img:hover+span {
 
 }
 
+/* Thank you page */
+
+.thank-menu {
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+    margin-top: -10px;
+}
+
+#thank-you-outer {
+    height: auto;
+    justify-content: center;
+    margin: 0 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+#thank-you-image {
+    height: 100vh;
+    background: url(../images/25.jpg) no-repeat center center;
+    background-size: cover;
+
+}
+
+#thanks-cover-text h1 {
+    font-family: 'Della Respira', serif;
+    color: #E3E5E7;
+    letter-spacing: 6px;
+}
+
+#thanks-cover-text {
+    top: 50%;
+    width: 40%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+}
+
+/* 404 page */
+
+#mistake-image {
+    height: 100vh;
+    background: url(../images/19.jpg) no-repeat center center;
+    background-size: cover;
+
+}
+
+#mistake-text h1,
+h3 {
+    font-family: 'Della Respira', serif;
+    color: #E3E5E7;
+    letter-spacing: 6px;
+}
+
+#mistake-text {
+    top: 50%;
+    width: 40%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+}
+
 /* Media queries - tablet */
 
 @media screen and (max-width: 768px) {
@@ -417,6 +481,8 @@ img:hover+span {
     }
 
 }
+
+/* Media query - standard mobile size */
 
 @media screen and (max-width: 500px) {
 
@@ -477,71 +543,49 @@ img:hover+span {
         height: 45vh;
     }
 
+}
+
+/* Media query - shorter screen height */
+
+@media screen and (max-height: 860px) {
+    #contact-form {
+        height: 30vh;
+    }
+    
+    .signup-form {
+        padding: 30px;
+    }
+    
+    .signup-form > h2 {
+        padding: 0px;
+    }
+
+    #blurb {
+        padding: 20px 40px 100px 40px;
+    }
+
     footer {
-        position: bottom;
+        position: absolute;
+        bottom: 10px;
         width: 100%;
         margin: 10px;
     }
 
 }
 
-.thank-menu {
-    position: fixed;
-    width: 100%;
-    z-index: 200;
-    margin-top: -10px;
-}
+/* Media query - shortest screen height */
 
-#thank-you-outer {
-    height: auto;
-    justify-content: center;
-    margin: 0 15px;
-    overflow: hidden;
-    position: relative;
-}
+@media screen and (max-height: 770px) {
 
-#thank-you-image {
-    height: 100vh;
-    background: url(../images/25.jpg) no-repeat center center;
-    background-size: cover;
+    #logo-one, #logo-two {
+        font-size: 150%;
+    }
 
-}
+    #blurb {
+        font-size: 65%;
+    }
 
-#thanks-cover-text h1 {
-    font-family: 'Della Respira', serif;
-    color: #E3E5E7;
-    letter-spacing: 6px;
-}
-
-#thanks-cover-text {
-    top: 50%;
-    width: 40%;
-    margin: 0 auto;
-    position: absolute;
-    text-align: center;
-    justify-content: center;
-}
-
-
-#mistake-image {
-    height: 100vh;
-    background: url(../images/19.jpg) no-repeat center center;
-    background-size: cover;
-
-}
-
-#mistake-text h1,
-h3 {
-    font-family: 'Della Respira', serif;
-    color: #E3E5E7;
-    letter-spacing: 6px;
-}
-
-#mistake-text {
-    top: 50%;
-    width: 40%;
-    margin: 0 auto;
-    position: absolute;
-    text-align: center;
-    justify-content: center;
+    .signup-form {
+        padding: 10px 30px;
+    }
 }
