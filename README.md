@@ -185,15 +185,19 @@ From user feedback, I realised that a possible future improvement would be a con
 It could also be an improvement to add more information on gear used and so on, as the target audience (which would include other film photography enthusists) would find this useful. 
 
 # Testing
-** to be added **
+The site passes all tests from the following template (adapted for use on my own site)
+![testing validation](assets/images/readme/testing.jpg)
 
 # Validation Testing
-** do after I've completed Responsive design **
 ## CSS Validation
+No errors were returned when passing through the official HTML validator
+![CSS validation](assets/images/readme/css-valid.jpg)
 https://jigsaw.w3.org/css-validator/
+
 ## HTML Validation
+No errors were returned when passing through the official HTML validator
+![HTML validation](assets/images/readme/html-valid.jpg)
 https://validator.w3.org/
-(insert a screenshot for each page)
 
 # Compatibility and Responsive Testing
 ** Test on min. 3 screen sizes (I think) - need to know exactly which device sizes I need to test on **

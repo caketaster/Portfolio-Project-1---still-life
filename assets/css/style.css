@@ -470,14 +470,17 @@ img:hover+span {
         top: 60px;
         justify-content: space-around;
         padding-left: 0px;
-    }
-
-    c ul {
         padding-inline-start: 0px;
     }
 
     #contact-form {
-        height: 50vh;
+        height: 45vh;
+    }
+
+    footer {
+        position: bottom;
+        width: 100%;
+        margin: 10px;
     }
 
 }
