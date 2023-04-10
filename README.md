@@ -198,7 +198,7 @@ https://validator.w3.org/
 # Compatibility and Responsive Testing
 ** Test on min. 3 screen sizes (I think) - need to know exactly which device sizes I need to test on **
 
-# Testing:
+# Testing
 All links, both internal and external, are working correctly. External links all open in separate tabs while internal links open on the same page. 
 ** when form is sent you get a Bad Gateway 502...**
 
@@ -225,6 +225,12 @@ The following steps were taken to deploy:
 
 # Credits
 I used the Love-Running walkthrough project as a basic skeleton for the page, including the nav menu and hero-image zoom animation.
+
+Nav bar:
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/
+
+Hero-image zoom:
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/
 
 On the advice of my mentor I decided to use flexbox rather than floats, so made use of YouTube tutorials to give myself the knowledge to use them.
 
@@ -263,19 +269,6 @@ All photos were taken from my own Flickr page (https://www.flickr.com/photos/148
 NOTES:
 
 
-What I would like to add:
+To do - Testing page, validation, compatability and responsiveness (what page?), insert lighthouse
+QUOTE: "Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.")
 
-Images to expand upon select (possibly with a menu embedded - image number, image info (camera/film used etc) and a link to add to the form, as explained below).
-
-A way to link clicking on each image to the form, so that users can click on the image(s) they want to ask about and the form add that image number automatically.
-
-To do - Testing - validator, how it looks and works on different screen sizes (socials vertical, text shrinks, couldn't fix gallery issue, format breaks at ...px QUOTE: "Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.")
-To do - Validation (when code is done)
-To do - What screen sizes *exactly*? 
-M - when form is sent you get a Bad Gateway 502 - edit: now it's a different error
-M - wireframes. Screenshots or some sort of link to them?
-M - ## Site User Stories
-  ## Website Owner Stories
-  ## Developer Stories 
-  - do I need these? also I have 2 user feedbacks, is that enough?
-To do - Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents. This will help assessors to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special characters like dashes.

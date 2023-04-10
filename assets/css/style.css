@@ -7,6 +7,8 @@ body {
     background: #181b1e;
 }
 
+/* The following code for the nav bar originated from https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/ and was modified to fit the styles of this project */
+
 /* Navigation links */
 .menu ul {
     list-style-type: none;
@@ -45,6 +47,8 @@ h1 {
     letter-spacing: 4px;
     text-shadow: -1px 1px 10px #4280be;
 }
+
+/* All code involving flex-boxes (across all 3 main pages) originated largely from the tutorials at https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&ab_channel=TheNetNinja and was modified to fit the styles of this project */
 
 #logo-box {
     display: flex;
@@ -103,6 +107,8 @@ h1 {
     float: right;
     padding-right: 15%;
 }
+
+/* The following code for hero image and hero image zoom originated from https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/ and was modified to fit the styles of this project */
 
 #hero-image-outer {
     height: inherit;
@@ -211,6 +217,8 @@ ul.networks {
 
 /* Gallery page */
 
+/* The following code for gallery presentation originated from https://blog.logrocket.com/responsive-image-gallery-css-flexbox/#creating-responsive-image-gallery-uniform-image-dimensions and was modified to fit the styles of this project */
+
 .image-gallery {
     list-style-type: none;
     display: flex;
@@ -242,6 +250,8 @@ ul.networks {
     flex-grow: 999;
 }
 
+/* The following code for creating hover-boxes originated from https://www.w3schools.com/cssref/sel_hover.php and was modified to fit the styles of this project */
+
 .overlay {
     display: none;
     padding: 0px;
@@ -264,6 +274,8 @@ img:hover+span {
 }
 
 /* Contact form */
+
+/* The following code for creating a contact form originated from https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/ and was modified to fit the styles of this project */
 
 #contact-form {
     height: 100vh;
@@ -293,6 +305,8 @@ img:hover+span {
     margin-bottom: 20px;
 }
 
+/* The following code for creating a larger text area originated from https://www.w3schools.com/tags/tag_textarea.asp and was modified to fit the styles of this project */
+
 .text-input {
     background: transparent;
     color: #d1d5d8;
@@ -304,9 +318,12 @@ img:hover+span {
     padding: 2px 6px;
 }
 
-#email,#name {
+#email,
+#name {
     background: white;
 }
+
+/* BEGINNING of code for placeholder styling copied from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_placeholder */
 
 ::placeholder {
     /* Firefox */
@@ -325,6 +342,8 @@ img:hover+span {
     color: #6c7175;
     opacity: .7;
 }
+
+/* End of code coied for placeholder styling */
 
 .text-input:hover {
     border-color: #fcfdfd;
@@ -369,7 +388,7 @@ img:hover+span {
 
     .socials.mobile ul {
         visibility: hidden;
-    } 
+    }
 
     header {
         position: fixed;
@@ -416,14 +435,14 @@ img:hover+span {
 
     #hero-image {
         background: url(../images/7.jpg) no-repeat center center;
-    } 
+    }
 
     /* make the main container 100% vs two columns for phones */
 
     #mobile-socials {
         flex-direction: column;
         width: 100%;
-    } 
+    }
 
     .flex-container-one,
     .flex-container-two {
@@ -453,9 +472,7 @@ img:hover+span {
         padding-left: 0px;
     }
 
-    c
-
-    ul {
+    c ul {
         padding-inline-start: 0px;
     }
 
@@ -484,7 +501,7 @@ img:hover+span {
     height: 100vh;
     background: url(../images/25.jpg) no-repeat center center;
     background-size: cover;
-    
+
 }
 
 #thanks-cover-text h1 {
@@ -507,10 +524,11 @@ img:hover+span {
     height: 100vh;
     background: url(../images/19.jpg) no-repeat center center;
     background-size: cover;
-    
+
 }
 
-#mistake-text h1, h3 {
+#mistake-text h1,
+h3 {
     font-family: 'Della Respira', serif;
     color: #E3E5E7;
     letter-spacing: 6px;
