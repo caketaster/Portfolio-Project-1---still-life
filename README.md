@@ -2,7 +2,7 @@
 
 ## Outline: 
 
-'still life' is a photography site showcasing my own photography (which helpfully sidesteps copyright issues related to using other people's photography). There are 3 pages of content. Text is kept to a minimum for stylistic reasons so as to keep the focus on the images.
+'still life' is a photography site showcasing my own photography (which helpfully sidesteps copyright issues related to using other people's photography). There are 3 main pages of content, plus a Thank You page and a 404 page. Text is kept to a minimum for stylistic reasons so as to keep the focus on the images.
 
 A contact form is provided for users to ask questions or comment, with a view to providing prints of photographs, or organising commissions or collaborations. 
 
@@ -97,13 +97,12 @@ Again this feedback points to a future direction of adding more content and link
 
 ## Colours
 I wanted a dark theme, which ties into the mood of the photography (which is generally devoid of people, and often dark scenes that have a shaft of light creating a glow in the shot). The glowing blue-white text stands out clearly against the dark background whilst also echoing the mood of the images, and the tertiary dark red colour also stands out and contrasts well. 
-Ultimately I did make slight variations in text colour and glow colour just by intuition, and I don't feel this detracts from the overall consistency of the palette in a noticable way.
-https://coolors.co/palette/181b1e-d3d8dd-d1d5d8-a1b9d2-4280be-b66f77
+Ultimately I did make slight variations in text colour and glow colour just by intuition, and I don't feel this detracts from the overall consistency of [the palette](https://coolors.co/palette/181b1e-d3d8dd-d1d5d8-a1b9d2-4280be-b66f77) in a noticable way.
 
 ![The basic colour palette used for the site](assets/images/readme/palette.jpg)
 
 ## Typography
-I stuck to 2 fonts, Della Respira for the logo and Cantarell for the general body text. I used https://fontjoy.com/ to create the pairing. Ultimately I went on feeling as to what fonts would work best and fit the mood of the site. 
+I stuck to 2 fonts, Della Respira for the logo and Cantarell for the general body text. I used [Fontjoy](https://fontjoy.com/) to create the pairing. Ultimately I went on feeling as to what fonts would work best and fit the mood of the site. 
 I decided to keep all text lowercase and avoid any commas, full-stops, punctuation etc. for stylistic reasons.
 
 ![My font pairing on Fontjoy.com](assets/images/readme/fonts.jpg)
@@ -111,7 +110,7 @@ I decided to keep all text lowercase and avoid any commas, full-stops, punctuati
 ## Imagery
 As this is a photography site I tried to be selective with the imagery. The aim was to have a semi-consistent mood/voice but have different styles of image in terms of content, aspect ratio etc. All photographic images are my own, so any copyright issues are avoided. 
 
-The icons all came from https://fontawesome.com/. I wanted to keep a consistent dark theme for the icons. 
+The icons all came from [Font Awesome](https://fontawesome.com/). I wanted to keep a consistent dark theme for the icons. 
 
 ## Animations and Transitions
 
@@ -120,15 +119,15 @@ The hero-image has a slow zoom animation. The aim was to draw the user into the 
 Links glow on hover, as do the social icons, which echo the fixed glow on the logo. Gallery images lighten (which has a similar feeling to the text glow) on hover. This brings consistency to the whole site. 
 
 # Site Structure
-This is a 3-page site, Home, Gallery and Contact. The homepage loads by default. Primary navigation takes place using the nav menu bar at the top of each page, though clicking the logo returns you to the homepage from any other page, and the word 'contact' also links drectly to the contact page. Social links are naturally also clickable and open the relevant sites in separate tabs. The menu bar, logo and clickable text and socials icons are constant on each page for ease of navigation. 
+This is a 3-page site, Home, Gallery and Contact, plus pages for 404 and a Thank you page after form submission. The homepage loads by default. Primary navigation takes place using the nav menu bar at the top of each page, though clicking the logo returns you to the homepage from any other page, and the word 'contact' also links drectly to the contact page. Social links are naturally also clickable and open the relevant sites in separate tabs. The menu bar, logo and clickable text and socials icons are constant on each page for ease of navigation. 
 
-Having 3 pages gives some separation to the site - the homepage has little function, the only real uses are to navigate to the Gallery or Contact pages, or social sites, but it does set the mood and feeling of the site as a whole in an uncluttered a way as possible. The gallery page is simply a gallery (image numbers are displayed on hover, but information is purposefully kept to a minimum) and the contact page is simple and open-ended - users are invited to write for any reason they wish. Thus the site is not 'pushy' and allows the user to relax and contemplate. 
+Having 3 pages gives some separation to the site - the homepage has little function, the only real uses are to navigate to the Gallery or Contact pages, or social sites, but it does set the mood and feeling of the site as a whole in an uncluttered a way as possible and loads faster than the Gallery page. The Gallery page is simply a gallery (image numbers are displayed on hover, but information is purposefully kept to a minimum) and the Contact page is simple and open-ended - users are invited to write for any reason they wish. Thus the site is not 'pushy' and allows the user to relax and contemplate. 
 
 # Wireframes
 Basic wireframes were created for desktop and mobile in Balsamiq, although the final design and function did change. 
-![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)
-![Gallery page wireframes mockup](assets/images/readme/wireframes2.jpg)
-![Gallery page image clicked mockup](assets/images/readme/wireframes3.jpg)
+![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)<br>
+![Gallery page wireframes mockup](assets/images/readme/wireframes2.jpg)<br>
+![Gallery page image clicked mockup](assets/images/readme/wireframes3.jpg)<br>
 
 I also made wireframes for the same pages on mobile:
 ![Homepage wireframe mockup, mobile screen](assets/images/readme/wireframes4.jpg)
@@ -142,13 +141,13 @@ I also made wireframes for the same pages on mobile:
 ### Homepage
 Links all 'glow', as do the social media links, the site logo also has a fixed glow. The active page also has a glow in the menu bar. 
 
-![menu bar glow example](assets/images/readme/menu-glow.jpg)
-![social icons glow example](assets/images/readme/social-glow.jpg)
+![menu bar glow example](assets/images/readme/menu-glow.jpg)<br>
+![social icons glow example](assets/images/readme/social-glow.jpg)<br>
 ![contact link glow example](assets/images/readme/contact-glow.jpg)
 
 The hero image has a slow zoom-in animation.
-I added 2 breakpoints: width < 768px and < 500px to cover tablet and mobile screens.
-At 768px and lower the social icons switch to a vertical format to better fit a narrow screen. The logo and text also shrink to better fit a small screen. The menu bar becomes sticky and better delineated from the body of the page.
+I added breakpoints at widths < 768px and < 500px to cover tablet and mobile screens, and further breakpoints for shorter screens at 860px and 770px, plus a warning message for extremely narrow screens < 320px.
+At 768px [width] and lower the social icons switch to a vertical format to better fit a narrow screen. The logo and text also shrink to better fit a small screen. The menu bar becomes sticky and better delineated from the body of the page.
 
 ![Image of the homescreen on a tablet sized format (approx. 755px wide)](assets/images/readme/home-tablet.jpg)
 
@@ -215,7 +214,39 @@ No errors were returned when passing through the official HTML validator
 https://validator.w3.org/
 
 ## Compatibility and Responsive Testing
-** Test on min. 3 screen sizes (I think) - need to know exactly which device sizes I need to test on **
+I used [gsstatcounter](https://gs.statcounter.com/) to check the most popular browsers on desktop, tablet and mobile, and the most common screen resolutions seen worldwide:
+
+![browser market share desktop](assets/images/readme/browser-desk.jpg)<br>
+![browser market share tablet](assets/images/readme/browser-tab.jpg)<br>
+![browser market share mobile](assets/images/readme/browser-mob.jpg)<br>
+
+![screen resolution worldwide](assets/images/readme/screen-resolution.jpg)<br>
+
+Testing therefore focused on Chrome at various resolutions. I do not have a Browserstack account so ran through the DevTools emulators and the other browsers I had installed (Safari, Firefox)
+
+| Device                                | Browser                | Operating System   | Screen dimensions                             |
+|---------------------------------------|------------------------|--------------------|-----------------------------------------------|
+| Macbook Pro 2014                      | Chrome 112.0.5615.49   | MacOS 10.15.7      | 2560 x 1600px, 3840 x 2160px (second display) |
+| Macbook Pro 2014                      | Safari 15.4            | MacOS 10.15.7      | 2560 x 1600px, 3840 x 2160px (second display) |
+| Macbook Pro 2014                      | Firefox 109.0.1        | MacOS 10.15.7      | 2560 x 1600px, 3840 x 2160px (second display) |
+| RedMi Note 11 Pro                     | Chrome 112.0.5615.48   | MiUI Global 13.0.7 | 1080 x 2400px                                 |
+| RedMi Note 11 Pro                     | Mi Browser 17.5.110328 | MiUI Global 13.0.7 | 1080 x 2400px                                 |
+| DevTools emulator: iPhone XR          | Chrome 112.0.5615.49   | MacOS 10.15.7      | 414 x 896px                                   |
+| DevTools emulator: iPhone 12 Pro      | Chrome 112.0.5615.49   | MacOS 10.15.7      | 390 x 844px                                   |
+| DevTools emulator: Samsung Galaxy S8+ | Chrome 112.0.5615.49   | MacOS 10.15.7      | 360 x 740px                                   |
+| DevTools emulator: iPad Air           | Chrome 112.0.5615.49   | MacOS 10.15.7      | 820 x 1180px                                  |
+| DevTools emulator: iPad Mini          | Chrome 112.0.5615.49   | MacOS 10.15.7      | 768 x 1024px                                  |
+| DevTools emulator: Surface Pro 7      | Chrome 112.0.5615.49   | MacOS 10.15.7      | 912 x 1368px                                  |
+| DevTools emulator: Galaxy Fold        | Chrome 112.0.5615.49   | MacOS 10.15.7      | 280 x 653px                                   |
+| DevTools emulator: Nest Hub           | Chrome 112.0.5615.49   | MacOS 10.15.7      | 1024 x 600px                                  |
+
+On Safari on desktop the menu nav bar responds differently to Chrome. When hovered, each menu item shifts the position of its neighbours slightly. The Gallery also renders as one long vertical column, even on wider screens. 
+
+On Galaxy S8+ (360x740px) there is some overlap of the contact form and social links, not affecting usability.
+
+On Galaxy Fold there is a warning message saying the device is not suitable for viewing the page optimally, but the page does work fine, despite some overlap of the contact form and social links.
+
+Given the chance, and particularly as Safari responds differently to Chrome, I'd want to test in other browsers (Opera, Samsung, Edge)
 
 ## Lighthouse testing
 All testing was performed on an Incognito page in Chrome. Although Performance can vary, the largest issue was the Gallery performance on both mobile and desktop, due to the amount of large, fairly high quality images. To mitigate this I reduced the sizes of all the larger images and increased Performance scores by 16 and 24 respectively, but further trimming of size would also help these scores. 
@@ -250,8 +281,15 @@ Thank you page (mobile)<br>
 I did not track my defects as often as I should have at this early stage, but [the following defects were tracked and closed](https://github.com/caketaster/Portfolio-Project-1---still-life/issues)
 
 ## Outstanding Defects
-At edge cases on certain screen sizes the Socials bar overlaps other elements. This would only possibly affect a tiny subset of users with a very old phone. 
+At edge cases on certain very small screen sizes the Socials bar overlaps other elements. This would only possibly affect a tiny subset of users with a very old phone. 
+
 At extremely wide monitor monitor widths the Contact form does not sit pleasingly on the screen and there's far too much empty space on the page. This would only affect users with extremely wide monitors.
+
+Page load for the Gallery is still slower than I would like. I have already resized many images, but could reduce the size further without compromising too much on quality to improve this.
+
+At certain points the Gallery pop-ups do not sit cleanly on the images. This is a by-product of the Gallery design I chose. Ideas for fixing this are included in the Future Features section. 
+
+![Pop-up not looking good](assets/images/readme/pop-up-bad.jpg)
 
 # Deployment
 
@@ -271,7 +309,7 @@ The following steps were taken to deploy:
 ![Screenshot 2023-03-25 at 11 01 48](https://user-images.githubusercontent.com/97278488/227687445-0de90a4f-d984-4845-986c-ddaaf7402abf.jpg)
 
 5. Site is now deployed
- ![Screenshot 2023-03-25 at 11 05 34](https://user-images.githubusercontent.com/97278488/227688005-077f6d54-4af4-4d55-aadc-3075d38cf3c2.jpg
+ ![Screenshot 2023-03-25 at 11 05 34](https://user-images.githubusercontent.com/97278488/227688005-077f6d54-4af4-4d55-aadc-3075d38cf3c2.jpg)
 
 
 # Credits
@@ -297,13 +335,4 @@ I used W3schools for several things too:
 All photos were taken from [my own Flickr page](https://www.flickr.com/photos/14887867@N07/)
 
 
-
-
-
-
-NOTES:
-To commit - 
-To do - 
-
-QUOTE: "Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed."
 
