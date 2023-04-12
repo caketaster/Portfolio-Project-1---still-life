@@ -276,6 +276,10 @@ Thank you page (mobile)<br>
 404 page (mobile)<br>
 ![404 mobile lighthouse validation](assets/images/readme/lh-404-mob.jpg)<br>
 
+## Wave Testing
+I ran the site through [Wave](https://wave.webaim.org/) and the site returned 1 error on the homepage - a jump from h1 to h3, which was an aesthetic choice I prefer not to change. 
+The Contact page returned errors for unlabelled text-boxes, which again was an aesthetic and intentional choice which I choose to stick with. 
+
 # Defects
 
 I did not track my defects as often as I should have at this early stage, but [the following defects were tracked and closed](https://github.com/caketaster/Portfolio-Project-1---still-life/issues)

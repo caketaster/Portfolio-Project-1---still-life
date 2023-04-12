@@ -550,7 +550,7 @@ h3 {
 
 /* Media query - shorter screen height (860px) */
 
-@media screen and (max-height: 860px max-width: 500px;) {
+@media screen and (max-height: 860px) and (max-width: 500px) {
     #contact-form {
         height: 30vh;
     }
@@ -578,7 +578,7 @@ h3 {
 
 /* Media query - shortest screen height (770px) */
 
-@media screen and (max-height: 770px, max-width: 500px;) {
+@media screen and (max-height: 770px) and (max-width: 500px) {
 
     #logo-one, #logo-two {
         font-size: 150%;
