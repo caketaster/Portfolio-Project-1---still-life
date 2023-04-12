@@ -188,7 +188,9 @@ It could also be an improvement to add more information on gear used and so on, 
 
 All pages are responsive down to 320px wide (which very few, if any, modern phones are), as long as the screen has a length of 800px, and look good on any larger screen sizes (although the contact page starts to look slightly odd above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on monitors of this kind.
 
-The gallery can be slow to load, due to large image sizes. This is a trade-off - I want to show images in high quality, but the larger the image (and the more images I have), the slower they will load. I chose to stick with large images in my assets folder but use jpg, as a relativly compact file size. In future I could tweak this to optimise speed whilst keeping quality at a relatively high level, or split the gallery onto different pages depending on subject, format and so on to have shorter loading times per page.
+A warning message is displayed on screens smaller than 320px wide advising users to fold out their phone (if they're using a folding narrow phone) as the page looks rather bad at these very narrow sizes.
+
+The gallery can be slow to load, due to large image sizes. This is a trade-off - I want to show images in high quality, but the larger the image (and the more images I have), the slower they will load. I chose to stick with large images in my assets folder but use jpg, as a relatively compact file size. I have cut the image sizes to be no larger than 300kb per photo, though this is probably still excessive. In future I could tweak this to optimise speed whilst keeping quality at a relatively high level, or split the gallery onto different pages depending on subject, format, camera and so on to have shorter loading times per page.
 
 # Testing
 Every page looks good on screens as narrow as 320px and as short as 700px.
@@ -214,32 +216,32 @@ https://validator.w3.org/
 ** Test on min. 3 screen sizes (I think) - need to know exactly which device sizes I need to test on **
 
 ## Lighthouse testing
-All testing was performed on an Incognito page in Chrome. Although Performance can vary, the major issue was the Gallery performance on both mobile and desktop, due to the amount of large, fairly high quality images
+All testing was performed on an Incognito page in Chrome. Although Performance can vary, the largest issue was the Gallery performance on both mobile and desktop, due to the amount of large, fairly high quality images. To mitigate this I reduced the sizes of all the larger images and increased Performance scores by 16 and 24 respectively, but further trimming of size would also help these scores. 
 
-Homepage (desktop)
-![Homepage desktop lighthouse validation](assets/images/readme/lh-home-desk.jpg)
-Homepage (mobile)
-![Homepage mobile lighthouse validation](assets/images/readme/lh-home-mob.jpg)
+Homepage (desktop)<br>
+![Homepage desktop lighthouse validation](assets/images/readme/lh-home-desk.jpg)<br>
+Homepage (mobile)<br>
+![Homepage mobile lighthouse validation](assets/images/readme/lh-home-mob.jpg)<br>
 
-Gallery (desktop)
-![Gallery desktop lighthouse validation](assets/images/readme/lh-gallery-desk.jpg)
-Gallery (mobile)
-![Gallery mobile lighthouse validation](assets/images/readme/lh-gallery-mob.jpg)
+Gallery (desktop)<br>
+![Gallery desktop lighthouse validation](assets/images/readme/lh-gallery-desk2.jpg)<br>
+Gallery (mobile)<br>
+![Gallery mobile lighthouse validation](assets/images/readme/lh-gallery-mob2.jpg)<br>
 
-Contact page (desktop)
-![Contact desktop lighthouse validation](assets/images/readme/lh-contact-desk.jpg)
-Contact page (mobile)
-![Contact mobile lighthouse validation](assets/images/readme/lh-contact-mob.jpg)
+Contact page (desktop)<br>
+![Contact desktop lighthouse validation](assets/images/readme/lh-contact-desk.jpg)<br>
+Contact page (mobile)<br>
+![Contact mobile lighthouse validation](assets/images/readme/lh-contact-mob.jpg)<br>
 
-Thank you page (desktop)
-![Thank you desktop lighthouse validation](assets/images/readme/lh-thank-desk.jpg)
-Thank you page (mobile)
-![Thank you mobile lighthouse validation](assets/images/readme/lh-thank-mob.jpg)
+Thank you page (desktop)<br>
+![Thank you desktop lighthouse validation](assets/images/readme/lh-thank-desk.jpg)<br>
+Thank you page (mobile)<br>
+![Thank you mobile lighthouse validation](assets/images/readme/lh-thank-mob.jpg)<br>
 
-404 page (desktop)
-![404 desktop lighthouse validation](assets/images/readme/lh-404-desk.jpg)
-404 page (mobile)
-![404 mobile lighthouse validation](assets/images/readme/lh-404-mob.jpg)
+404 page (desktop)<br>
+![404 desktop lighthouse validation](assets/images/readme/lh-404-desk.jpg)<br>
+404 page (mobile)<br>
+![404 mobile lighthouse validation](assets/images/readme/lh-404-mob.jpg)<br>
 
 # Deployment
 
@@ -265,40 +267,24 @@ The following steps were taken to deploy:
 # Credits
 I used the Love-Running walkthrough project as a basic skeleton for the page, including the nav menu and hero-image zoom animation.
 
-Nav bar:
-https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/
 
-Hero-image zoom:
-https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/
+- [Nav bar](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/)
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/
+- [Hero-image zoom](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
+- [contact form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/)
 
 On the advice of my mentor I decided to use flexbox rather than floats, so made use of YouTube tutorials to give myself the knowledge to use them.
 
-YouTube flexbox tutorial series:
+- [YouTube flexbox tutorial series](https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&ab_channel=TheNetNinja)
+- [Gallery flexbox tutorial](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/#creating-responsive-image-gallery-uniform-image-dimensions)
 
-https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&ab_channel=TheNetNinja
-
-For the Gallery page I again used flexbox for a gallery responsive to different image dimensions with the help of the following website:
-
-https://blog.logrocket.com/responsive-image-gallery-css-flexbox/#creating-responsive-image-gallery-uniform-image-dimensions
-
-I used W3schools for the basics of making text (or number) boxes appear upon hover for the Gallery page:
-
-https://www.w3schools.com/cssref/sel_hover.php
-
-I used this page to create a larger textarea in the contact form
-
-https://www.w3schools.com/tags/tag_textarea.asp
-
-The contact form was based upon the Love Running contact form, but adjusted in several ways to make it fit my own site
-
-https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/
-
-I learned the basics of styling the placeholder text from another W3schools page:
-
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_placeholder
+I used W3schools for several things too:
+- [hover boxes on gallery](https://www.w3schools.com/cssref/sel_hover.php)
+- [larger textarea in the contact form](https://www.w3schools.com/tags/tag_textarea.asp)
+- [placholder styling](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_placeholder)
 
 ## Media
-All photos were taken from my own Flickr page (https://www.flickr.com/photos/14887867@N07/)
+All photos were taken from [my own Flickr page](https://www.flickr.com/photos/14887867@N07/)
 
 
 
@@ -306,9 +292,8 @@ All photos were taken from my own Flickr page (https://www.flickr.com/photos/148
 
 
 NOTES:
-To commit - media queries shorter screens
-To do - insert lighthouse, 
-
+To commit - 
+To do - 
 
 QUOTE: "Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed."
 

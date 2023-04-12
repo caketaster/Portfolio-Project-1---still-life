@@ -373,6 +373,10 @@ img:hover+span {
 
 }
 
+.too-small {
+    display: none;
+}
+
 /* Thank you page */
 
 .thank-menu {
@@ -460,7 +464,6 @@ h3 {
         background: black;
         border-bottom: 1px solid saddlebrown;
         z-index: 200;
-        width: 100%;
         margin-top: -10px;
     }
 
@@ -545,9 +548,9 @@ h3 {
 
 }
 
-/* Media query - shorter screen height */
+/* Media query - shorter screen height (860px) */
 
-@media screen and (max-height: 860px) {
+@media screen and (max-height: 860px max-width: 500px;) {
     #contact-form {
         height: 30vh;
     }
@@ -573,9 +576,9 @@ h3 {
 
 }
 
-/* Media query - shortest screen height */
+/* Media query - shortest screen height (770px) */
 
-@media screen and (max-height: 770px) {
+@media screen and (max-height: 770px max-width: 500px;) {
 
     #logo-one, #logo-two {
         font-size: 150%;
@@ -587,5 +590,14 @@ h3 {
 
     .signup-form {
         padding: 10px 30px;
+    }
+
+}
+
+@media only screen and (max-width: 319px){
+    .too-small {
+        padding-top: 50px;
+        display: block;
+        text-align: center;
     }
 }
