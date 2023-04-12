@@ -578,7 +578,7 @@ h3 {
 
 /* Media query - shortest screen height (770px) */
 
-@media screen and (max-height: 770px max-width: 500px;) {
+@media screen and (max-height: 770px, max-width: 500px;) {
 
     #logo-one, #logo-two {
         font-size: 150%;

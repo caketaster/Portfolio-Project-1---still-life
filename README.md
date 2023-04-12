@@ -51,7 +51,9 @@ https://github.com/caketaster
   * [CSS Validation](#css-validation)
   * [HTML Validation](#html-validation)
   * [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
-  * [Lighthouse testing:](#lighthouse-testing-)
+  * [Lighthouse testing:](#lighthouse-testing)
+- [Defects](#defects)  
+  * [Outstanding Defects](#outstanding-defects)
 - [Deployment](#deployment)
   * [Production](#production)
 - [Credits](#credits)
@@ -242,6 +244,14 @@ Thank you page (mobile)<br>
 ![404 desktop lighthouse validation](assets/images/readme/lh-404-desk.jpg)<br>
 404 page (mobile)<br>
 ![404 mobile lighthouse validation](assets/images/readme/lh-404-mob.jpg)<br>
+
+# Defects
+
+I did not track my defects as often as I should have at this early stage, but [the following defects were tracked and closed](https://github.com/caketaster/Portfolio-Project-1---still-life/issues)
+
+## Outstanding Defects
+At edge cases on certain screen sizes the Socials bar overlaps other elements. This would only possibly affect a tiny subset of users with a very old phone. 
+At extremely wide monitor monitor widths the Contact form does not sit pleasingly on the screen and there's far too much empty space on the page. This would only affect users with extremely wide monitors.
 
 # Deployment
 
