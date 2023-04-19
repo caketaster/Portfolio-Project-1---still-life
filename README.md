@@ -6,7 +6,7 @@
 
 A contact form is provided for users to ask questions or comment, with a view to providing prints of photographs, or organising commissions or collaborations. 
 
-![responsiveness on all screen sizes](assets/images/readme/responsive.jpg)
+![Responsiveness on a variety of screen sizes](assets/images/readme/responsive.jpg)
 
 # Live site
 https://caketaster.github.io/Portfolio-Project-1---still-life/
@@ -116,7 +116,7 @@ The icons all came from [Font Awesome](https://fontawesome.com/). I wanted to ke
 
 The hero-image has a slow zoom animation. The aim was to draw the user into the image. The animation lasts 10 seconds, I wanted the transition to be subtle and thoughtful, which fits the aims of the site as a whole. 
 
-Links glow on hover, as do the social icons, which echo the fixed glow on the logo. Gallery images lighten (which has a similar feeling to the text glow) on hover. This brings consistency to the whole site. 
+Links glow on hover, as do the social icons, which echo the fixed glow on the logo. Gallery images lighten (which has a similar feeling to the text glow) on hover. This brings consistency to the feel of the whole site. 
 
 # Site Structure
 This is a 3-page site, Home, Gallery and Contact, plus pages for 404 and a Thank you page after form submission. The homepage loads by default. Primary navigation takes place using the nav menu bar at the top of each page, though clicking the logo returns you to the homepage from any other page, and the word 'contact' also links drectly to the contact page. Social links are naturally also clickable and open the relevant sites in separate tabs. The menu bar, logo and clickable text and socials icons are constant on each page for ease of navigation. 
@@ -124,12 +124,12 @@ This is a 3-page site, Home, Gallery and Contact, plus pages for 404 and a Thank
 Having 3 pages gives some separation to the site - the homepage has little function, the only real uses are to navigate to the Gallery or Contact pages, or social sites, but it does set the mood and feeling of the site as a whole in an uncluttered a way as possible and loads faster than the Gallery page. The Gallery page is simply a gallery (image numbers are displayed on hover, but information is purposefully kept to a minimum) and the Contact page is simple and open-ended - users are invited to write for any reason they wish. Thus the site is not 'pushy' and allows the user to relax and contemplate. 
 
 # Wireframes
-Basic wireframes were created for desktop and mobile in Balsamiq, although the final design and function did change. 
+Basic wireframes were created for desktop and mobile in Balsamiq, although the final design and function did change. <br>
 ![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)<br>
 ![Gallery page wireframes mockup](assets/images/readme/wireframes2.jpg)<br>
 ![Gallery page image clicked mockup](assets/images/readme/wireframes3.jpg)<br>
 
-I also made wireframes for the same pages on mobile:
+I also made wireframes for the same pages on mobile: <br>
 ![Homepage wireframe mockup, mobile screen](assets/images/readme/wireframes4.jpg)
 ![Gallery page wireframes mockup, mobile screen](assets/images/readme/wireframes5.jpg)
 ![Gallery page image clicked mockup, mobile screen](assets/images/readme/wireframes6.jpg)
@@ -167,7 +167,7 @@ The Send [Submit] button glows, roughly in line with other clickables on the sit
 ![send button glow](assets/images/readme/send-glow.jpg)
 
 ### Thank you page
-The form redirects to a static Thank you page with a clickable message (reading 'thank you') that returns you to the home page. This link shares the same style and glow as the logo text.
+The form redirects to a static Thank you page with a clickable message (reading 'thank you') that returns you to the home page, plus a short message on responding to enquiries. This link shares the same style and glow as the logo text.
 
 ![thank you link glow](assets/images/readme/thanks-glow.jpg)
 
@@ -187,7 +187,7 @@ From user feedback, I realised that a possible future improvement would be a con
 
 It could also be an improvement to add more information on gear used and so on, as the target audience (which would include other film photography enthusists) would find this useful. 
 
-All pages are responsive down to 320px wide (which very few, if any, modern phones are), as long as the screen has a length of 800px, and look good on any larger screen sizes (although the contact page starts to look slightly odd above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on monitors of this kind.
+All pages are responsive down to 320px wide (which very few modern phones are) and look good on any larger screen sizes (although the contact page starts to look slightly spare above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on monitors of this kind.
 
 A warning message is displayed on screens smaller than 320px wide advising users to fold out their phone (if they're using a folding narrow phone) as the page looks rather bad at these very narrow sizes.
 
@@ -240,13 +240,13 @@ Testing therefore focused on Chrome at various resolutions. I do not have a Brow
 | DevTools emulator: Galaxy Fold        | Chrome 112.0.5615.49   | MacOS 10.15.7      | 280 x 653px                                   |
 | DevTools emulator: Nest Hub           | Chrome 112.0.5615.49   | MacOS 10.15.7      | 1024 x 600px                                  |
 
-On Safari on desktop the menu nav bar responds differently to Chrome. When hovered, each menu item shifts the position of its neighbours slightly. The Gallery also renders as one long vertical column, even on wider screens. 
+On Safari on desktop the menu nav bar responds differently to Chrome. When hovered, each menu item shifts the position of its neighbours slightly (although there is no effect on functionality). The Gallery also renders as one long vertical column, even on wider screens. 
 
-On Galaxy S8+ (360x740px) there is some overlap of the contact form and social links, not affecting usability.
+![The Gallery page on Safari, showing single column gallery images and nav bar oddity](assets/images/readme/safari-gallery.jpg)
 
-On Galaxy Fold there is a warning message saying the device is not suitable for viewing the page optimally, but the page does work fine, despite some overlap of the contact form and social links.
+On Galaxy Fold there is a warning message saying the device is not suitable for viewing the page optimally, but the page does work fine, despite the contact form and social links being a little close.
 
-Given the chance, and particularly as Safari responds differently to Chrome, I'd want to test in other browsers (Opera, Samsung, Edge)
+Given the chance, and particularly as the Gallery on Safari responds differently to on Chrome, I'd want to test in other browsers (Opera, Samsung, Edge)
 
 ## Lighthouse testing
 All testing was performed on an Incognito page in Chrome. Although Performance can vary, the largest issue was the Gallery performance on both mobile and desktop, due to the amount of large, fairly high quality images. To mitigate this I reduced the sizes of all the larger images and increased Performance scores by 16 and 24 respectively, but further trimming of size would also help these scores. 
@@ -287,7 +287,7 @@ I did not track my defects as often as I should have at this early stage, but [t
 ## Outstanding Defects
 At edge cases on certain very small screen sizes the Socials bar overlaps other elements. This would only possibly affect a tiny subset of users with a very old phone. 
 
-At extremely wide monitor monitor widths the Contact form does not sit pleasingly on the screen and there's far too much empty space on the page. This would only affect users with extremely wide monitors.
+At extremely wide monitor monitor widths the Contact form does not sit pleasingly on the screen and there's far too much empty space on the page. This would only affect users with very wide monitors and page functionality is not affected.
 
 Page load for the Gallery is still slower than I would like. I have already resized many images, but could reduce the size further without compromising too much on quality to improve this.
 
@@ -300,19 +300,19 @@ At certain points the Gallery pop-ups do not sit cleanly on the images. This is 
 ## Production
 This website was deployed to GitHub Pages. 
 The following steps were taken to deploy: 
-1. Click the Settings cog on GitHub
+1. Click the Settings cog on GitHub <br>
  ![Screenshot 2023-03-25 at 10 53 42](https://user-images.githubusercontent.com/97278488/227685366-aa2acd1f-76de-4cbf-8d1f-ae794b745e2c.jpg)
 
-2. In the left-hand nav, click on the Pages tab 
+2. In the left-hand nav, click on the Pages tab <br>
  ![Screenshot 2023-03-25 at 10 57 03](https://user-images.githubusercontent.com/97278488/227686313-9f440a2f-a4b8-4d86-ba57-0f8143da7a07.jpg)
  
-3. In the Branches section, select Main
+3. In the Branches section, select Main <br>
   ![Screenshot 2023-03-25 at 11 01 19](https://user-images.githubusercontent.com/97278488/227687270-2369bfaa-76f0-4fc7-ac36-bc75ab97ff1b.jpg)
 
-4. Click Save
+4. Click Save <br>
 ![Screenshot 2023-03-25 at 11 01 48](https://user-images.githubusercontent.com/97278488/227687445-0de90a4f-d984-4845-986c-ddaaf7402abf.jpg)
 
-5. Site is now deployed
+5. Site is now deployed <br>
  ![Screenshot 2023-03-25 at 11 05 34](https://user-images.githubusercontent.com/97278488/227688005-077f6d54-4af4-4d55-aadc-3075d38cf3c2.jpg)
 
 
@@ -321,7 +321,6 @@ I used the Love-Running walkthrough project as a basic skeleton for the page, in
 
 
 - [Nav bar](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/)
-https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/
 - [Hero-image zoom](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
 - [contact form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/)
 

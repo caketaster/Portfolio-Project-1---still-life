@@ -321,6 +321,7 @@ img:hover+span {
 #email,
 #name {
     background: white;
+    color: black;
 }
 
 /* BEGINNING of code for placeholder styling copied from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_placeholder */
@@ -554,12 +555,12 @@ h3 {
     #contact-form {
         height: 30vh;
     }
-    
+
     .signup-form {
         padding: 30px;
     }
-    
-    .signup-form > h2 {
+
+    .signup-form>h2 {
         padding: 0px;
     }
 
@@ -569,9 +570,8 @@ h3 {
 
     footer {
         position: absolute;
-        bottom: 10px;
         width: 100%;
-        margin: 10px;
+        margin-top: 80px;
     }
 
 }
@@ -580,7 +580,8 @@ h3 {
 
 @media screen and (max-height: 770px) and (max-width: 500px) {
 
-    #logo-one, #logo-two {
+    #logo-one,
+    #logo-two {
         font-size: 150%;
     }
 
@@ -594,7 +595,7 @@ h3 {
 
 }
 
-@media only screen and (max-width: 319px){
+@media only screen and (max-width: 319px) {
     .too-small {
         padding-top: 50px;
         display: block;
