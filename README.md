@@ -15,7 +15,7 @@ https://caketaster.github.io/Portfolio-Project-1---still-life/
 https://github.com/caketaster/Portfolio-Project-1---still-life
 
 # Author
-Benjamin Norman
+Benjamin Norman <br>
 https://github.com/caketaster
 
 # Table of Contents
@@ -30,7 +30,6 @@ https://github.com/caketaster
 - [Target Audience](#target-audience)
 - [Project Goals](#project-goals)
 - [User Stories](#user-stories)
-  * [Site User Stories](#site-user-stories)
 - [Design Choices](#design-choices)
   * [Colours](#colours)
   * [Typography](#typography)
@@ -47,6 +46,7 @@ https://github.com/caketaster
     + [404 page](#404-page)
   * [Future Features](#future-features)
 - [Testing](#testing)
+  * [User Testing](#user-testing)
 - [Validation Testing](#validation-testing)
   * [CSS Validation](#css-validation)
   * [HTML Validation](#html-validation)
@@ -75,23 +75,6 @@ As a site user I want to:
 - explore the gallery and see what photos are available
 - get an idea of the style of the photographer if thinking of a collaboration or commission
 - find social media links to explore more of the admin's work in photography
-
-## Site User Stories
-I sent the site to be tested by a few photography friends. Their feedback is below, and what I did (if anything) with the feedback:
-
->  I think the fonts are ok, there is some issues with the kerning between f and e of ‘life’, not sure if you can do anything about it.  Is there a reason why you chose all lower case?  In the contact form, where you fill the fields in the text is difficult to read (grey on maroon).  Top menu is working fine, but I can’t do anything with the left hand ‘film photography’ ‘art prints’ and contact….’, is this intentional?
-
-I hadn't noticed the kerning issue, but she's right. I don't know if it's possible to change the letter-spacing with CSS. The other option would, I suppose, to have the logo as an image rather than text, and move the 'e' closer to the 'f' in the image. Overall I see this as a minor issue - I don't want to change the chosen font, but might consider using an image in future iterations. 
-
-Lowercase was chosen purely stylistically. I prefer to keep it as it is.
-
-I styled the form text in response to this feedback to make it more readable (changing the colour and keeping the opacity higher than the auto setting).
-
-The 'contact' text is clickable but the user missed this. I intended this section as information and blurb only, and the menu bar provides all the links needed so again I don't see it as a big issue, but if she was expecting more clickable text, and she missed the actually clickable word, then there's an area for improvement: each word or phrase could link elsewhere, for example 'art prints' could direct toward the contact page with a Sales focus, 'collaboration' could point to the contact page with its current open 'write anything you want' focus. The contact page would need subsections in this case, depending on the nature of the query. 'Film photography' could link to information about film and cameras used and artistic choices. These are good directions for future expansion. 
-
->  I liked the image choice and the ease of use, and everything worked in terms of links etcetera but the Home page doesn't really do anything except link to the other pages. I'd want to see more information available, like as a photographer I want to know why you made decisions about gear and equipment. If I were buying from you I'd like to see price listings before contacting you. 
-
-Again this feedback points to a future direction of adding more content and links onto the homepage. I intentionally left it as simple as possible, but if user feedback is telling me they expect more information then it should be taken into consideration for future updates. 
 
 # Design Choices
 
@@ -177,26 +160,49 @@ The form redirects to a static Thank you page with a clickable message (reading 
 ![404 link glow](assets/images/readme/404-glow.jpg)
 
 ## Future Features
-I would love the images to expand to full-screen on being clicked (or possibly when hovered over), and for hover-links to appear to, for example, add them to a section of the contact form. A user could thus click on each image they were interested in and the image numbers would populate the contact form. This would save the user having to remember specific image numbers before filling the contact form in. I believe this would involve javascript abilities that I do not yet possess. 
+- **Click Image for Full Screen Overlay** <br>
+I would love the images to expand to full-screen on being clicked (or possibly when hovered over), 
 
-I originally envisioned this as mainly a sales site, so did have a Basket page, but decided against this in the final version for a few reasons. Firstly I didn't want the site to feel like a shopping site - it's a bit crass, and the mood of the site does not fit this functionality. Secondly it seemed easier in terms of coding to go with a simple contact form from which to open a dialogue about sales, if that's what the user is looking for. However, future versions could have a dedicated Sales/Basket page - probably a smarter move if genuinely aiming for a for-profit business. 
+- **Auto populate contact form with image of interest**  <br>
+I'd like to add a UX component to add selected images to the contact form. A user could click on each image they were interested in and the image numbers would populate the contact form. This would save the user having to remember specific image numbers before filling the contact form in. I believe this would involve javascript abilities that I do not yet possess. 
 
-The numbers that appear on hover in the Gallery sometimes do not sit nicely on the images (in the tablet screen size in particular), and this is something that could be improved. If all images had the same aspect ratio this could be solved relatively easily, in future I would consider separate galleries depending on aspect ratio, which would make this issue simpler to work on, and give users choice based on image layout (for printing etc). Having a gallery-style where the column number would shrink with the screen size could also mitigate this issue - something I could implement in future.
-
+- **Contact form to have a different focus for different users** <br>
 From user feedback, I realised that a possible future improvement would be a contact page with subsections depending on the nature of the query - one more sales-focused (with print sizes, paper quality, pricing etc.) and another closer to what's presented now - a form with a simple text area for general contact. 
 
-It could also be an improvement to add more information on gear used and so on, as the target audience (which would include other film photography enthusists) would find this useful. 
+- **Play with Gallery choices** <br>
+The numbers that appear on hover in the Gallery sometimes do not sit nicely on the images (in the tablet screen size in particular), and this is something that could be improved. If all images had the same aspect ratio this could be solved relatively easily, in future I would consider separate galleries depending on aspect ratio, which would make this issue simpler to work on, and give users choice based on image layout (for printing etc). Having a gallery-style where the column number would shrink with the screen size could also mitigate this issue - something I could implement in future.
 
-All pages are responsive down to 320px wide (which very few modern phones are) and look good on any larger screen sizes (although the contact page starts to look slightly spare above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on monitors of this kind.
+- **Info on gear used** <br>
+The target audience (which would include other film photography enthusists) would find information on cameras/film used useful. 
 
-A warning message is displayed on screens smaller than 320px wide advising users to fold out their phone (if they're using a folding narrow phone) as the page looks rather bad at these very narrow sizes.
+- **Extra media queries for edge cases** <br>
+All pages are responsive down to 320px wide (which very few modern phones are) and look good on any larger screen sizes (although the contact page starts to look slightly spare above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on extra-wide monitors.
+The pages also don't look ideal on very small mobile screens, this could be improved upon.
 
+- **Optimise Gallery image sizes** <br>
 The gallery can be slow to load, due to large image sizes. This is a trade-off - I want to show images in high quality, but the larger the image (and the more images I have), the slower they will load. I chose to stick with large images in my assets folder but use jpg, as a relatively compact file size. I have cut the image sizes to be no larger than 300kb per photo, though this is probably still excessive. In future I could tweak this to optimise speed whilst keeping quality at a relatively high level, or split the gallery onto different pages depending on subject, format, camera and so on to have shorter loading times per page.
 
 # Testing
 Every page looks good on screens as narrow as 320px and as short as 700px.
 The site passes all tests from the following template (adapted for use on my own site)
 ![testing validation](assets/images/readme/testing.jpg)
+
+## User Testing
+I sent the site to be tested by a few photography friends. Their feedback is below, and what I did (if anything) with the feedback:
+
+>  I think the fonts are ok, there is some issues with the kerning between f and e of ‘life’, not sure if you can do anything about it.  Is there a reason why you chose all lower case?  In the contact form, where you fill the fields in the text is difficult to read (grey on maroon).  Top menu is working fine, but I can’t do anything with the left hand ‘film photography’ ‘art prints’ and contact….’, is this intentional?
+
+I hadn't noticed the kerning issue, but she's right. I don't know if it's possible to change the letter-spacing with CSS. The other option would, I suppose, to have the logo as an image rather than text, and move the 'e' closer to the 'f' in the image. Overall I see this as a minor issue - I don't want to change the chosen font, but might consider using an image in future iterations. 
+
+Lowercase was chosen purely stylistically. I prefer to keep it as it is.
+
+I styled the form text in response to this feedback to make it more readable (changing the colour and keeping the opacity higher than the auto setting).
+
+The 'contact' text is clickable but the user missed this. I intended this section as information and blurb only, and the menu bar provides all the links needed so again I don't see it as a big issue, but if she was expecting more clickable text, and she missed the actually clickable word, then there's an area for improvement: each word or phrase could link elsewhere, for example 'art prints' could direct toward the contact page with a Sales focus, 'collaboration' could point to the contact page with its current open 'write anything you want' focus. The contact page would need subsections in this case, depending on the nature of the query. 'Film photography' could link to information about film and cameras used and artistic choices. These are good directions for future expansion. 
+
+>  I liked the image choice and the ease of use, and everything worked in terms of links etcetera but the Home page doesn't really do anything except link to the other pages. I'd want to see more information available, like as a photographer I want to know why you made decisions about gear and equipment. If I were buying from you I'd like to see price listings before contacting you. 
+
+Again this feedback points to a future direction of adding more content and links onto the homepage. I intentionally left it as simple as possible, but if user feedback is telling me they expect more information then it should be taken into consideration for future updates. 
 
 # Validation Testing
 ## CSS Validation
@@ -245,6 +251,8 @@ On Safari on desktop the menu nav bar responds differently to Chrome. When hover
 ![The Gallery page on Safari, showing single column gallery images and nav bar oddity](assets/images/readme/safari-gallery.jpg)
 
 On Galaxy Fold there is a warning message saying the device is not suitable for viewing the page optimally, but the page does work fine, despite the contact form and social links being a little close.
+
+![Message displayed on a Galaxy Fold phone](assets/images/readme/galaxy-fold.jpg)
 
 Given the chance, and particularly as the Gallery on Safari responds differently to on Chrome, I'd want to test in other browsers (Opera, Samsung, Edge)
 
